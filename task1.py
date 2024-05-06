@@ -1,11 +1,8 @@
 #!python3
 
 def sum(a,b):
-    #inputs
-    # a : float 
-    # b : float
-    # return value: returns the sum of the 2 numbers
-    return
+    c = round(a+b, 1)
+    return c
 
 
 
@@ -24,4 +21,6 @@ if __name__ == "__main__":
     assert sum(5,-32) == -27
     assert sum(5,2.5) == 7.5
     assert sum(5.1,2.3) == 7.4
+   
+
     
